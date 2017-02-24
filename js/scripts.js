@@ -14,9 +14,8 @@ var pingPongCounter = function(number) {
     }else if (result[index] % 3 === 0){
       result[index] = "ping";
     }
-  })
-  console.log(result);
-
+  });
+  return result;
 }
 
 //Frontend
@@ -25,6 +24,8 @@ $(document).ready(function () {
     event.preventDefault();
     var userInput = $("input#submitField").val();
     var result = pingPongCounter(userInput);
-    $("ul#pingPong").append(result);
+    result.forEach(function(index) {
+      $("ul#pingPong").append("<li>" + index + "</li>");
+    })
   });
 });
