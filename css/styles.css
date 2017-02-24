@@ -13,7 +13,6 @@ h1 {
 }
 h1, h3, h4, li {
   text-shadow: 2px 2px 1px #1e1e1e;
-  /*background: #1e1e1e; */
 }
 
 p {
@@ -21,7 +20,14 @@ p {
 }
 
 label {
-  color: #FF6155;
+  color: #d9534f;
+  text-shadow: 1px 1px 1px #1e1e1e;
+}
+
+input {
+  height: 46px;
+  border: 1px solid #d9534f;
+  border-radius: 5px;
 }
 
 form {
@@ -32,12 +38,18 @@ form {
 ul {
   list-style-type: none;
   font-size: 20px;
+  padding-right: 10%;
+}
+
+li:first-child{
+  display: none;
 }
 
 li {
   border-bottom: 1px solid #001834;
   margin-top: 6px;
   padding-bottom: 4px;
+  padding-right: 8%;
 }
 
 .rules {
