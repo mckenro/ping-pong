@@ -7,7 +7,11 @@ var pingPongCounter = function(number) {
     result.push(start++);
   }
   result.map(function(index) {
-    if (result[index] % 3 === 0){
+    if (result[index] % 15 === 0){
+      result[index] = "ping-pong";
+    }else if (result[index] % 5 === 0){
+      result[index] = "pong";
+    }else if (result[index] % 3 === 0){
       result[index] = "ping";
     }
   })

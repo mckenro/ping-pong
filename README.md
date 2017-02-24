@@ -21,7 +21,7 @@ _This project uses a form field to gather input from a user to pass to a program
     * _Example Input: 10_
     * _Example Output: "pong"_
 
-4. Program converts numbers divisible by 15 to "ping".
+4. Program converts numbers divisible by 15 to "ping-pong".
     * _Example Input: 30_
     * _Example Output: "ping-pong"_
 
