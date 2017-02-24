@@ -6,7 +6,7 @@
 
 ## Description
 
-_This project uses a form field to gather input from a user to pass to a program that counts up to the users input number and replaces numbers divisible by 3 with "ping", numbers divisible by 5 with "pong", and numbers divisible by 15 with "ping-pong". Project is available for review here: link to github repo and here: link to gh-pages_
+_This project uses a form field to gather input from a user to pass to a program that counts up to the users input number and replaces numbers divisible by 3 with "ping", numbers divisible by 5 with "pong", and numbers divisible by 15 with "ping-pong". Project is available for review here: https://github.com/mckenro/ping-pong and here: https://mckenro.github.io/ping-pong/_
 
 ## Specifications
 1. Program counts up to input number.
