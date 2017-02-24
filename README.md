@@ -1,4 +1,4 @@
-# _Epicodus Track Selector Project_
+# _Epicodus Ping-Pong Counter Project_
 
 #### _Week Three Independent Project for Epicodus, 02.24.2017_
 
