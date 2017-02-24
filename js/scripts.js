@@ -6,6 +6,11 @@ var pingPongCounter = function(number) {
   for (i=0;i<number;i++) {
     result.push(start++);
   }
+  result.map(function(index) {
+    if (result[index] % 3 === 0){
+      result[index] = "ping";
+    }
+  })
   console.log(result);
 
 }
