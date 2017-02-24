@@ -27,7 +27,7 @@ _This project uses a form field to gather input from a user to pass to a program
 
 * _5. Program displays results to html page._
     * _Example Input: 30_
-    * _Example Output: "ping"_
+    * _Example Output: a list of numbers with numbers divisible by 3 replaced with "ping", numbers divisible by 5 replaced with "pong", and numbers divisible by 15 replaced with "ping-pong"._
 
 ## Setup/Installation Requirements
 
