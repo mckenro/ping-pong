@@ -13,6 +13,22 @@ _This project uses a form field to gather input from a user to pass to a program
     * _Example Input: 4_
     * _Example Output: [1, 2, 3, 4]_
 
+* _2. Program converts numbers divisible by 3 to "ping"._
+    * _Example Input: 9_
+    * _Example Output: "ping"_
+
+* _3. Program converts numbers divisible by 5 to "pong"._
+    * _Example Input: 10_
+    * _Example Output: "pong"_
+
+* _4. Program converts numbers divisible by 15 to "ping"._
+    * _Example Input: 30_
+    * _Example Output: "ping-pong"_
+
+* _5. Program displays results to html page._
+    * _Example Input: 30_
+    * _Example Output: "ping"_
+
 ## Setup/Installation Requirements
 
 * _No setup is required for this project_
