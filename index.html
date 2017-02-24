@@ -10,13 +10,25 @@
   <body>
     <div class="container">
       <h1>Let's Ping Pong!</h1>
+      <h3>The Rules are Simple...</h3>
+      <div class="rules">
+        <h4>Ping-Pong will count up to your number and:</h4>
+          <p>The numbers divisible by 3 will become "ping"</p>
+          <p>The numbers divisible by 5 will become "pong"</p>
+          <p><em>and</em></p>
+          <p>The numbers divisible by 15 will become "ping-pong"</p>
+      </div><!-- end rules -->
       <form id="numberSubmit">
-        <label for="submitField" type="number">Enter number</label>
+        <label for="submitField" type="number">Enter a number below to begin:</label>
+        <p>
         <input id="submitField" type="number">
-        <button type="submit" class="btn">Ping Pong It!</button>
+        <button type="submit" class="btn btn-default">Ping Pong It!</button>
       </form>
-      <ul id="pingPong">
-      </ul>
+      <div id="results">
+        <ul id="pingPong">
+        </ul>
+      </div>
     </div><!--end container-->
+
   </body>
 </html>
