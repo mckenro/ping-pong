@@ -9,23 +9,23 @@
 _This project uses a form field to gather input from a user to pass to a program that counts up to the users input number and replaces numbers divisible by 3 with "ping", numbers divisible by 5 with "pong", and numbers divisible by 15 with "ping-pong". Project is available for review here: link to github repo and here: link to gh-pages_
 
 ## Specifications
-1. Program counts up to input number._
+1. Program counts up to input number.
     * _Example Input: 4_
     * _Example Output: [1, 2, 3, 4]_
 
-2. Program converts numbers divisible by 3 to "ping"._
+2. Program converts numbers divisible by 3 to "ping".
     * _Example Input: 9_
     * _Example Output: "ping"_
 
-3. Program converts numbers divisible by 5 to "pong"._
+3. Program converts numbers divisible by 5 to "pong".
     * _Example Input: 10_
     * _Example Output: "pong"_
 
-4. Program converts numbers divisible by 15 to "ping"._
+4. Program converts numbers divisible by 15 to "ping".
     * _Example Input: 30_
     * _Example Output: "ping-pong"_
 
-5. Program displays results to html page._
+5. Program displays results to html page.
     * _Example Input: 30_
     * _Example Output: a list of numbers with numbers divisible by 3 replaced with "ping", numbers divisible by 5 replaced with "pong", and numbers divisible by 15 replaced with "ping-pong"._
 
