@@ -24,6 +24,7 @@ $(document).ready(function () {
     event.preventDefault();
     var userInput = $("input#submitField").val();
     var result = pingPongCounter(userInput);
+    $("#pingPong").empty();
     result.forEach(function(index) {
       $("#results").show();
       $("ul#pingPong").append("<li>" + index + "</li>");
